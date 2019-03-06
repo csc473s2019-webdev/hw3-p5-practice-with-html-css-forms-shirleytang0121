@@ -11,7 +11,7 @@
     <h1 id="title">This is a survey</h1>
     <div id="former">
         <p id="description">please do this survey about your hobbies</p>
-        <form action="" id="survey-form"></form>
+        <form action="" id="survey-form">
         <div class="info">
             <label for="name" id="name-label">Name</label>
             <input type="text" id="name" name="name" placeholder="please enter your name" required>
@@ -61,11 +61,15 @@
                 </div>
                 <div class="info">
                     <div>
-                    <label for="comments">this enter any of your comments here</label>
+                    <label for="comments">please enter any of your comments here:</label>
                     </div>
                     <textarea name="comments" id="comments" cols="30" rows="10" placeholder="please enter some comments here"></textarea>
 
                 </div>
+                <button id="submit" type="submit">
+                    Submit
+                </button>
+                </form>
     </div>
 </body>
 </html>
